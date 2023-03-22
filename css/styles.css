@@ -222,3 +222,10 @@ footer {
 footer>p {
     color: #FFF9F9;
 }
+
+@media (max-widht: 800px) {
+    .card-section {
+        display: flex;
+        flex-direction: column;
+    }
+}
