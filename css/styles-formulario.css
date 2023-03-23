@@ -5,7 +5,6 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    color: white;
   }
   
   .header1 {
@@ -96,6 +95,22 @@
     margin: 3px;
     border-radius: 10px;
     
+  }
+
+  label, legend, h1, p {
+    color: white;
+  }
+
+  input:focus {
+    background-color: #AFF9FE;
+  }
+
+  .input:required {
+    background-color: red;
+  }
+
+  .input:valid {
+    background-color: green;
   }
 
   .formulario-izquierda {
