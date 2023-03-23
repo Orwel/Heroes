@@ -7,9 +7,13 @@
   font-family: sans-serif;
 }
 
-.header1 {
+/* Header */
+.header1, .header2, .header3 {
     width: 100vw;
     padding: 0.2%;
+}
+
+.header1 {
     background: #1CD1B0;
 }
 
@@ -19,18 +23,14 @@
 
 .header2 {
     display: flex;
-    box-sizing: border-box;
-    width: 100vw;
-    padding: 1px;
     background: #00669F;
 }
 
-.header2>img {
+.header2 > img {
     margin-left: 1%;
 }
 
-.header2>h1 {
-    font-family: sans-serif;
+.header2 > h1 {
     font-style: normal;
     font-weight: 400;
     font-size: 2rem;
