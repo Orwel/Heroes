@@ -73,7 +73,7 @@
 
 
 .cajatopbatman {
-    background-image: url(/img/fondo1.png);
+    background-image: url(img/fondo1.png);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
@@ -113,7 +113,7 @@
 }
 
 .cajatopmujer {
-    background-image: url(/img/fondo2.png);
+    background-image: url(img/fondo2.png);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
@@ -153,7 +153,7 @@
 }
 
 .cajatopquinn {
-    background-image: url(/img/fondo3.png);
+    background-image: url(img/fondo3.png);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
