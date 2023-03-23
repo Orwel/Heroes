@@ -73,12 +73,12 @@
 
 
 .cajatopbatman {
-    background-image: url(img/Mask\ Group-2.png);
+    background-image: url(/img/fondo1.png);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
     height: 250px;
-    width: 404px;
+    width: 100%;
     
 }
 
@@ -113,12 +113,12 @@
 }
 
 .cajatopmujer {
-    background-image: url(img/Mask\ Group-3.png);
+    background-image: url(/img/fondo2.png);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
     height: 250px;
-    width: 404px;
+    width: 100%;
 }
 
 .cajatopmujer>img {
@@ -141,6 +141,7 @@
 .cajacentermujer>h3 {
     margin-top: 15px;
     font-size: 2rem;
+    text-align: center;
 }
 .cajacentermujer>p {
     padding: 30px;
@@ -152,12 +153,12 @@
 }
 
 .cajatopquinn {
-    background-image: url(img/Mask\ Group-2.png);
+    background-image: url(/img/fondo3.png);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
     height: 250px;
-    width: 404px;
+    width: 100%;
     
 }
 
@@ -181,6 +182,7 @@
 .cajacenterquinn>h3 {
     margin-top: 15px;
     font-size: 2rem;
+    text-align: center;
 }
 .cajacenterquinn>p {
     padding: 30px;
@@ -223,9 +225,17 @@ footer>p {
     color: #FFF9F9;
 }
 
-@media (max-widht: 800px) {
-    .card-section {
+@media (max-width: 800px) {
+
+    .card {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        width: 65%;
+        margin: 2%;
+        background: #F3F3F3;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+
     }
 }
